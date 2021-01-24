@@ -26,3 +26,10 @@ def lzw(input: array):
             output.add(dictionary[word])
     return output
 ```
+
+## Running the code in this repo
+
+```bash
+python encode_lzw.py # example_text.txt -> example_text.lzw
+python decode_lzw.py # example_text.lzw -> example_text_decoded.txt
+```
