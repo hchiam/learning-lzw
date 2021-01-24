@@ -32,4 +32,5 @@ def lzw(input: array):
 ```bash
 python encode_lzw.py # example_text.txt -> example_text.lzw
 python decode_lzw.py # example_text.lzw -> example_text_decoded.txt
+bash check_diffs.sh
 ```
